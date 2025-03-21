@@ -2,35 +2,51 @@
 
 :root {
     font-family: Arial, Helvetica, sans-serif;
+    background-color:  #3587A4;
+    color: #041553;
+    accent-color: #FFFFFF;
+}
+
+h1{font-family: 'Water Brush', cursive;
+    background-color: #3587A4;
+    color: var(--color);
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+article{
+    position: absolute;
+    text-align: center;
+    background-color: #3587A4;
+    bottom: 0px;
+    right: 16px;
+    height: auto;
+}
+
+div{
+    position: relative;
 }
 
 .hero img{
     display: block;
     width: 100%;
     height: auto;
+    position: relative;
 }
 
-h1{font-family: 'Water Brush', cursive;
-    font-style: #041553;
-    position:absolute;
+img{
+    width: 200;
+    height: auto;
 }
-
-article{
-    position: absolute;
-}
-
-#customer{
-    float: right;
-}
-
-
 
 body{font-family: var(--font-family);
-
 }
 
 h2{font-family: 'Water Brush', cursive;
-
 }
 
 p{font-family: var(--font-family);}
