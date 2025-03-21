@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1{font-family: 'Water Brush', cursive;
+    font-style: #041553;
+    position:absolute;
+}
+
+article{
+    position: absolute;
+}
+
+#customer{
+    float: right;
+}
+
+
+
+body{font-family: var(--font-family);
+
+}
+
+h2{font-family: 'Water Brush', cursive;
+
+}
+
+p{font-family: var(--font-family);}
+
+a{
+    text-decoration: none;
+}
