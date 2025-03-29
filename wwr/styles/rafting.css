@@ -7,6 +7,8 @@
     accent-color: #FFFFFF;
 }
 
+
+
 h1{font-family: 'Water Brush', cursive;
     background-color: #3587A4;
     color: var(--color);
@@ -14,7 +16,10 @@ h1{font-family: 'Water Brush', cursive;
     top: 10%;
     left: 40%;
     text-align: center;
-    font-size: xx-large;
+    font-size: 2rem;
+}
+header{
+    align-items: center;
 }
 
 
@@ -53,4 +58,7 @@ p{font-family: var(--font-family);}
 
 a{
     text-decoration: none;
+}
+footer{
+    justify-content: last baseline;
 }
