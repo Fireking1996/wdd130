@@ -20,6 +20,7 @@ h1{font-family: 'Water Brush', cursive;
 }
 header{
     align-items: center;
+    display: grid;
 }
 
 
@@ -36,11 +37,13 @@ div{
     position: relative;
 }
 
-.hero img{
-    display: block;
+hero.img{
+    display:block;
     width: 100%;
     height: auto;
-    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px; 
 }
 
 img{
