@@ -21,9 +21,12 @@ h1{font-family: 'Water Brush', cursive;
 header{
     align-items: center;
     display: grid;
+    grid-template-columns: 150px auto;
 }
-
-
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 article{
     position: absolute;
     text-align: center;
@@ -47,8 +50,8 @@ hero.img{
 }
 
 img{
-    width: 200;
     height: auto;
+    flex-direction: column;
 }
 
 body{font-family: var(--font-family);
@@ -62,6 +65,29 @@ p{font-family: var(--font-family);}
 a{
     text-decoration: none;
 }
+
 footer{
-    justify-content: last baseline;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
 }
