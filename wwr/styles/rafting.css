@@ -12,9 +12,7 @@
 h1{font-family: 'Water Brush', cursive;
     background-color: #041553;
     color: #60492C;
-    position: absolute;
-    top: -15%;
-    left: 40%;
+    position: relative;
     text-align: center;
     font-size: 2rem;
 }
@@ -45,7 +43,8 @@ div{
     position: relative;
 }
 
-hero.img{
+.hero{
+    position:relative;
     display:block;
     width: 100%;
     top: -15%;
@@ -56,18 +55,31 @@ hero.img{
 }
 
 img{
+    grid-template-columns: 200;
     height: auto;
     flex-direction: column;
+}
+
+.new{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
 }
 
 body{font-family: var(--font-family);
 }
 
 h2{font-family: 'Water Brush', cursive;
+    color:var(--color);
 }
 
 p{font-family: var(--font-family);}
 
+.trips{
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+}
 a{
     text-decoration: none;
 }
@@ -103,3 +115,18 @@ footer .social img {
     width: 80px;
     padding-top: 10px;
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
