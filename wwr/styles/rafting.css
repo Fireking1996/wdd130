@@ -10,10 +10,10 @@
 
 
 h1{font-family: 'Water Brush', cursive;
-    background-color: #3587A4;
-    color: var(--color);
+    background-color: #041553;
+    color: #60492C;
     position: absolute;
-    top: 10%;
+    top: -15%;
     left: 40%;
     text-align: center;
     font-size: 2rem;
@@ -24,8 +24,13 @@ header{
     grid-template-columns: 150px auto;
 }
 nav{
+    position: relative;
     display: flex;
     justify-content: space-around;
+}
+main{
+    position:relative;
+    text-align: center;
 }
 article{
     position: absolute;
@@ -43,6 +48,7 @@ div{
 hero.img{
     display:block;
     width: 100%;
+    top: -15%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -72,6 +78,12 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.b{
+    display: grid;
+    grid-template-columns: 175px;
+    grid-template-rows: 20px;
+    justify-content: center;
 }
 
 footer .social img {
